@@ -1,0 +1,258 @@
+
+
+
+.menu {
+
+  width: 150px;
+  height: 150px;
+  border-radius: 500px;
+
+}
+
+/*    ----     ----   */  
+
+.navigation  {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(255, 142, 1);
+    
+   
+}
+
+.navigation ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation ul li {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-right: 25px;
+    font-weight: 800;
+}
+
+
+/*   --- banner section is start   bro      */
+.banner {
+
+background-image: url(https://i.ibb.co/mcbRP7f/7.png);
+height: 40vh;
+width: 100%;
+background-color: rgb(255, 142, 1) ;
+background-repeat: no-repeat;
+background-position: top 25% right 10px;
+background-size: 300px 300px  ;
+
+
+}
+
+
+.banner-content h4 {
+    font-family: cursive;
+    color: white;
+    font-weight:  800 ;
+}
+
+.banner-content p {
+
+ color: #eee;
+ font-weight: 600;
+
+}
+
+.banner-content b {
+
+color: blueviolet;
+}
+
+.banner-content {
+    padding: 45px 85px;
+}
+
+
+.sign-up{
+
+background-color:red;
+border: none;
+border-radius: 5px 10px 5px 10px;
+}
+
+
+/*   this is a another div for the image section     */
+
+
+.welcome {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 142, 1) ;
+   
+}
+
+.welcome img {
+
+    height: 100%;
+    width: 400px;
+
+
+}
+
+.two-div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 142, 1) ;
+    padding: 25px;
+}
+
+.div-one {
+
+    height: 3vh;
+    width: 50%;
+    background-color: tomato;
+   padding:25px;
+   border-radius: 0 55px 55px 0;
+   line-height: 25px;
+}
+
+.div-two {
+
+
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 25px;
+height: min-content;
+box-shadow: 5px 6px 25px rgba(0,0,0,0.3);
+
+}
+
+
+
+
+
+
+/*  thsi is a section for media section  for the men hend    */ 
+
+@media screen and (max-width: 480px) {
+    
+
+    .banner {
+
+        background-image: url('7.png ');
+        height: 60vh;
+        width: 100%;
+        background-color: rgb(255, 142, 1) ;
+        background-repeat: no-repeat;
+        background-position: top 25% right 10px;
+        background-size: 150px 150px  ;
+        
+        
+        }
+
+        .banner-content p {
+            font-size: small;
+            color: black;
+        }
+        .banner-content h4{
+            color: red;
+            font-size: small;
+        }
+        .banner-content{
+            text-align: center;
+
+        }
+
+        .navigation-menu li {
+            font-size: 10px;
+        }
+
+        .menu {
+            width: 50px;
+            height: 50px;
+        } 
+
+        .banner-content {
+            padding: 25px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+
+        .banner-content b {
+
+            font-size: 10px;
+        }
+
+
+        .welcome {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(255, 142, 1) ;
+           
+        }
+
+        .welcome img {
+
+                  height: 100%;
+                  width: 250px;
+
+
+        }
+
+        .welcome h1 {
+            font-size: 15px;
+
+        }
+
+        .welcome h2{
+            font-size: 15px;
+        }
+
+
+        .div-one {
+
+       width: 40%;
+       font-size: 10px;
+       font-weight: 400;
+
+        }
+
+        .two-div{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: small;
+
+
+        }
+
+
+
+
+
+
+  }
+
